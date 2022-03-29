@@ -73,6 +73,11 @@ li {
     box-shadow: 3px 3px 3px #600e9e;
 }
 
+.posicaoVoltar {
+    display: flex;
+    justify-content: end;
+}
+
 .linksNavegacao nav {
     display: flex;
     justify-content: space-between;
