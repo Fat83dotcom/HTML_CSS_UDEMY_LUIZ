@@ -27,7 +27,6 @@ body {
 .titulo {
     background: rgb(203, 154, 220);
     box-shadow: 3px 3px 3px #600e9e;
-    margin-left: 200px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -47,7 +46,7 @@ body {
     color: beige;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .descricao {
@@ -78,14 +77,20 @@ li {
     justify-content: end;
 }
 
-.linksNavegacao nav {
+.ajusteMenu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.linksNavegacao {
+    color: beige;
+    width: 60%;
     background: rgba(0, 0, 0, 0.6);
-    margin: 20px;
-    padding: 14px 30px;
+    margin: 10px;
+    padding: 14px;
     border-radius: 50px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 
 .linksNavegacao a {
