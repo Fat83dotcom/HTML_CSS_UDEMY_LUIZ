@@ -10,18 +10,48 @@ body {
 
 .cabecalho {
     background: linear-gradient(45deg, #600e9e 40%, #9557c4 60%);
-    display: block;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     margin: 34px;
     padding: 14px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #600e9e;
 }
 
+.ajusteMenu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.linksNavegacao {
+    color: beige;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 14px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.linksNavegacao a {
+    text-decoration: none;
+    color: beige;
+}
+
 .foto {
     height: 250px;
     border-radius: 500px;
     box-shadow: 3px 3px 3px #9557c4;
+}
+
+.perfil {
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .titulo {
@@ -32,21 +62,13 @@ body {
 }
 
 .redesSociais {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    text-align: right;
     margin: 0px;
-
 }
 
 .iconesRedes {
     height: 50px;
-}
-
-.perfil {
-    color: beige;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .descricao {
@@ -77,26 +99,6 @@ li {
     justify-content: end;
 }
 
-.ajusteMenu {
-    display: flex;
-    justify-content: space-around;
-}
-
-.linksNavegacao {
-    color: beige;
-    width: 60%;
-    background: rgba(0, 0, 0, 0.6);
-    margin: 10px;
-    padding: 14px;
-    border-radius: 50px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-    text-align: center;
-}
-
-.linksNavegacao a {
-    text-decoration: none;
-    color: beige;
-}
 
 .copyR {
     text-align: center;
