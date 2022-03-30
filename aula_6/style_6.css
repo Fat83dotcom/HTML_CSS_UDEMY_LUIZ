@@ -27,13 +27,14 @@ body {
 
 .linksNavegacao {
     color: beige;
-    width: 70%;
+    width: 80%;
     background: rgba(0, 0, 0, 0.6);
     margin: 10px;
     padding: 14px;
     border-radius: 50px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .linksNavegacao a {
@@ -86,7 +87,13 @@ li {
     list-style-type: none;
 }
 
+.formatGeral h2 {
+    color: bisque;
+    text-transform: uppercase;
+}
+
 .formatGeral section {
+    color: beige;
     background: #9557c4;
     padding: 24px;
     margin-bottom: 24px;
