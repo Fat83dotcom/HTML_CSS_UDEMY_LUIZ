@@ -6,6 +6,7 @@ body {
     background-image: url("background2.png");
     background-position: center center;
     background-size: cover;
+    background-repeat: repeat;
 }
 
 nav {
@@ -41,7 +42,7 @@ nav img {
 }
 
 nav a:hover {
-    background-color: rgba(165, 42, 42, 0.6);
+    color: rgba(165, 42, 42, 0.9);
 }
 
 .menuPrincipal {
@@ -55,8 +56,8 @@ header {
     background-image: url(backgroundHeader.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding: 13%;
+    background-repeat: repeat;
+    padding: 15%;
     height: 300px;
 }
 
@@ -79,9 +80,9 @@ header h2 {
     padding: 0 10px 0 0;
 }
 
-header dl {
+header h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    /* font-size: 24px; */
     text-align: justify;
     padding: 10px;
 
