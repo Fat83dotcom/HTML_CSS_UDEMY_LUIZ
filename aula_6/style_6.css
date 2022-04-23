@@ -7,6 +7,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 600px) {
+    .perfil {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .redesSociais {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
 .cabecalho {
     background: linear-gradient(45deg, #600e9e 40%, #9557c4 60%);
     display: flex;
