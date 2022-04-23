@@ -138,8 +138,16 @@ header h3 {
     .alinhamentoLinks {
         flex-direction: column;
     }
+
+    .displayXicara a:hover img {
+        background-color: darkred;
+    }
     
     ul {
         padding: 0%;
+    }
+
+    .cabecalho1{
+        flex-direction: column;
     }
 }
