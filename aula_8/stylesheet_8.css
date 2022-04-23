@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Rubik+Glitch&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400&family=Rubik+Glitch&family=Rubik+Microbe&display=swap');
 
 body {
     margin: 0;
@@ -75,8 +75,7 @@ header h2 {
 
 header h3 {
     font-family: 'Roboto', sans-serif;
-    /* font-size: 24px; */
-    text-align: justify;
+    text-align: center;
     padding: 10px;
 
 }
@@ -155,5 +154,9 @@ header h3 {
     .cabecalho1 img {
         width: 90px;
         height: 107px;
+    }
+
+    header h3 {
+        text-align: justify;
     }
 }
