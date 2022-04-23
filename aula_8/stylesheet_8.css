@@ -135,14 +135,6 @@ header h3 {
         width: 100%;
     }
 
-    .displayXicara {
-        display: none;
-    }
-
-    .menuPrincipal {
-        justify-content: flex-start;
-    }
-
     .alinhamentoLinks {
         flex-direction: column;
     }
