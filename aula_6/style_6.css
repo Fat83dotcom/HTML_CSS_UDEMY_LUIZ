@@ -13,11 +13,6 @@ body {
         justify-content: space-around;
         flex-direction: column;
     }
-    .redesSociais {
-        display: block;
-        text-align: center;
-        margin: 0px;
-    }
 }
 
 .cabecalho {
@@ -94,8 +89,8 @@ nav a:hover {
 }
 
 .redesSociais {
-    display: block;
-    text-align: right;
+    display: flex;
+    justify-content: center;
     margin: 0px;
 }
 
