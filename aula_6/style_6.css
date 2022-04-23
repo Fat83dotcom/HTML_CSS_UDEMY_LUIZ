@@ -83,7 +83,7 @@ nav a:hover {
 
 .redesSociais {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0px;
 }
 
@@ -143,5 +143,9 @@ li {
 
     .titulo {
         box-shadow: 3px 3px 3px #9557c4;
+    }
+
+    .redesSociais {
+        justify-content: center;
     }
 }
