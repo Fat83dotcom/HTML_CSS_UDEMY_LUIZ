@@ -139,4 +139,7 @@ header h3 {
         flex-direction: column;
     }
     
+    ul {
+        padding: 0%;
+    }
 }
