@@ -7,13 +7,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 600px) {
-    .perfil {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-}
 
 .cabecalho {
     background: linear-gradient(45deg, #600e9e 40%, #9557c4 60%);
@@ -135,4 +128,20 @@ li {
 
 .copyR {
     text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .foto {
+        box-shadow: 3px 3px 3px #600e9e;
+    }
+    .perfil {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .titulo {
+        box-shadow: 3px 3px 3px #9557c4;
+    }
 }
