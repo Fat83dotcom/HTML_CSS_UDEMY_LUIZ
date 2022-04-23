@@ -136,8 +136,6 @@ li {
         box-shadow: 3px 3px 3px #600e9e;
     }
     .perfil {
-        display: flex;
-        justify-content: space-around;
         flex-direction: column;
     }
 
