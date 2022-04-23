@@ -20,9 +20,10 @@ nav a {
     text-transform: uppercase;
     font-size: large;
 }
- nav a:hover {
+
+nav a:hover {
     color: darkred;
- }
+}
 
 .alinhamentoLinks {
     display: flex;
