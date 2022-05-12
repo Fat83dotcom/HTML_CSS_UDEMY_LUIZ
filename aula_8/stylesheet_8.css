@@ -55,10 +55,10 @@ header {
     justify-content: center;
 }
 
-header h1,
-h2 {
+header h1, h2, h3 {
     margin: 0;
-    font-family: 'Rubik Microbe', cursive;
+    text-transform: uppercase;
+    
 }
 
 header h1 {
@@ -103,7 +103,7 @@ header h3 {
 
 .cabecalho2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-content: center;
     color: black;
     background-color: rgba(165, 42, 42, 0.6);
