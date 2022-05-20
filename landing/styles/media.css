@@ -1,0 +1,31 @@
+@media all and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    main {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    header ul li {
+        display: block;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    main aside h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+    main form {
+        margin: 0 auto;
+    }
+    main article img {
+        margin-top: 30px;
+        width: 450px;
+        justify-self: center;
+    }
+    main aside p{
+        text-align: justify;
+    }
+}

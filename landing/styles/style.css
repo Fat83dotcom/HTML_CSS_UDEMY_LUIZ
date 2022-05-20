@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    /* essa configuração deixa o body sempre centralizado*/
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+header ul li {
+    display: inline-block;
+    margin: 20px;
+    
+
+}
+header ul a{
+    color: white;
+    text-decoration: none;
+}
+header ul a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+.botaoInscrevase {
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 15px;
+    padding: 10px;
+}
+.botaoInscrevase:hover{
+    background-color: rgb(132, 14, 201);
+    /* border-color: white; */
+    color: white;
+}
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+h1 {
+    font-weight:200;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+main aside h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+main aside span {
+    color: rgb(132, 14, 201);
+}
+main aside p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+main article img{
+    width: 500px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* align-items: center; */
+
+}
+main form input {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+}
+main form button {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(132, 14, 201);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    align-self: center;
+}
+.alinhaForm{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
