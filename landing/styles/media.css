@@ -1,4 +1,4 @@
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
     header {
         flex-direction: column;
     }
@@ -16,7 +16,7 @@
     main aside h2 {
         font-size: 38px;
         text-align: center;
-        line-height: 2;
+        line-height: 1.6;
     }
     main form {
         margin: 0 auto;
