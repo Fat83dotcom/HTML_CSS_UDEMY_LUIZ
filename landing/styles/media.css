@@ -1,14 +1,20 @@
 @media all and (max-width: 800px) {
     header {
         flex-direction: column;
+        justify-items: center;
     }
     main {
         flex-direction: column;
         /* align-items: center; */
     }
+    header ul {
+        margin: 0;
+        padding: 0;
+    }
     header ul li {
         display: block;
         text-align: center;
+        padding: 0 auto;
     }
     h1{
         text-align: center;
@@ -16,14 +22,14 @@
     main aside h2 {
         font-size: 38px;
         text-align: center;
-        line-height: 1.6;
+        line-height: 1;
     }
     main form {
         margin: 0 auto;
     }
     main article img {
         margin-top: 30px;
-        width: 450px;
+        width: 100%;
         justify-self: center;
     }
     main aside p{
